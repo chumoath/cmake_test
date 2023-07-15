@@ -9,6 +9,7 @@ int main(void)
 {
     int c = add(1, 2);
     printf ("1 + 2 = %d\n", c);
-
+    c = sub(1, 2);
+    printf ("1 - 2 = %d\n", c);
     exit(0);
 }

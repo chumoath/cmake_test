@@ -5,6 +5,7 @@ set (SDK_PATH /home/wjxh/linux/tool/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gn
 
 set(ENV{PATH} "$ENV{PATH}:${SDK_PATH}/bin")
 message("PATH: $ENV{PATH}")
+message("PWD: $ENV{PWD}")
 
 set(CMAKE_C_COMPILER arm-linux-gnueabihf-gcc)
 set(CMAKE_CXX_COMPILER arm-linux-gnueabihf-g++)
